@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>tente abrir a imagem ou mudar o seu tamanho</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="IMG/foto300.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="IMG/foto700.png" type="image/png">
+        <img src="IMG/foto1000.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Audios</h1>
+    <p>
+        Aprendendo a reproduzir audios em HTML
+    </p>
+    <audio src="media/Clocks.mp3" controls autoplay></audio>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="media/StrawSqueak.mp3" type="audio/mpeg">
+        <p>
+            Seu navegador nao reproduz audio. 
+            <a href="media/StrawSqueak.mp3">Clique aqui para baixar</a>
+        </p>
+    </audio>
+</body>
+</html>

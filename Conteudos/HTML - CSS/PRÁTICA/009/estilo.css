@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(44, 44, 44);
+}
+h1{
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+    
+}
+p{
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: azure;
+}
+li{
+    text-align: center;
+}

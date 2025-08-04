@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo Videos no meu site</h1>
+    <p>Este Video esta hospedado no meu próprio coputador</p>
+    <video src="media/meuvideo.mp4" width="500" controls autoplay loop></video>
+
+    <video controls width="500" poster="Imagens/capa.png">
+        <source src="media/Meuvideo.webm" type="video/webm">
+        <source src="media/Meuvideo.mkv" type="video/mp4">
+        <source src="media/meuvideo.mp4" type="video/mp4">
+        <source src="media/meuvideo.ogv" type="video/ogg">
+        <p>Seu navegador nao tem compatibilidade</p>
+    </video>
+
+    <h1>Inserindo Videos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LW0bhKitRBk?si=EOg0wrt0FSRHiF37" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h1>Inserindo Videos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/71127606?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Animation Reel 2022"></iframe>
+
+</body>
+</html>
